@@ -289,4 +289,3 @@ if (airQuality > 80 && airQuality <= 100) {
         "</td></tr>"
       );
     });
-  }
