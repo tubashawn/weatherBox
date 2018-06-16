@@ -160,8 +160,8 @@ function retrieveWeather() {
 
 function fiveDay() {
   database.ref("/weather").on("child_added", function (snapshot) {
-    $("#tableBody").append(".card-body" + snapshot.val().dateArray)
-  })
+    $("#tableBody").append(".card-body" + snapshot.val().dateArray);
+  });
 }
 
 var dateTime = "";
@@ -289,3 +289,4 @@ if (airQuality > 80 && airQuality <= 100) {
         "</td></tr>"
       );
     });
+  }
