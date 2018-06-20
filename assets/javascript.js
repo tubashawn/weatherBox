@@ -33,8 +33,8 @@ function setUserInfo() {
     retrieveWeather();
     aqiIndex();
     getAirQualityData();
-    // $(".form-control").val("")
   });
+  $(".form-control").val("");
 }
 
 
